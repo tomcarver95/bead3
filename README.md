@@ -1,53 +1,68 @@
-# Hibabejelento
+#Alkalmazások fejlesztése harmadik beadandó
+##2016.01.17.
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+###Feladat bemutatása
 
-## Prerequisites
+Egy webes vastagkliens, azaz egyoldalas alkalmazás készítése Ember.js segítségével az utolsó beadandó. Feladatot illetően lehet a szerveroldali alkalmazásnak egy kliensoldali változata, de másik feladat is választható. A feladatnak mininálisan tartalmaznia kell:
 
-You will need the following things properly installed on your computer.
+REST API végpont kialakítása
+legalább két modellt (onetomany)
+legalább 1 űrlapot
+legalább 1 listázó oldalt
+új felvétele
+adatbázisban lévő szerkesztése
+adatbázisban lévő törlése
+szerveroldali perzisztálás fájlba
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://www.ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
 
-## Installation
+###Futattás
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+Githubról le kell tölteni a projektet, majd a cloud9 ide segítsévégel elindítani (támogatja a rest-api-t és az ember.js-t).
+Kettő workspacet létrehozunk egyet a szervernek egyet pedig a projectnek, elindítjuk a server.js-t, majd a projecten belül ./node_modules/.bin/ember serve paranccsal szolgáljuk ki.
+A projectből a dist mappát kitéve el tudjuk indítani a projectet bármely szerverről.
 
-## Running / Development
+###Adatmodell
 
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+Adatbázis elemei: Hozzáadva, Kategória, Rövid ismertető
 
-### Code Generators
+###Végpontok
 
-Make use of the many generators for code, try `ember help generate` for more details
+Homepage: http://bead3-tomcarver95.c9users.io
+Ételek: http://bead3-tomcarver95.c9users.io/errors/list
+Új étel felvétele: http://bead3-tomcarver95.c9users.io/errors/new
+Megnéz: http://bead3-tomcarver95.c9users.io/errors
 
-### Running Tests
 
-* `ember test`
-* `ember test --server`
+###Használati útmutató
 
-### Building
+A feladatok menüpont alatt érhetjük a meglévő feladatainkat, illetve vehetünk fel újakat. A megtekint gombbal tekinthetjük meg az adott feladatot, és a töröl gombbal törölhetjük is azt.
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+Új feladat felvétele: A megnevezést egy legördülő menü segítségével választhatjuk ki. A nevet és az időpontot is meg kell adnunk.
+Megtekint: Az adott feladatról egy részletes leírást kapunk.
+Töröl: A töröl gombbal tudjuk törölni a feladatot.
 
-### Deploying
+###Szerepkörök
 
-Specify what it takes to deploy your app.
+Egyetlen szerepkör van, mégpedig a látogató ő hozzá fér mindenhez.
 
-## Further Reading / Useful Links
+###Mappaszerkezet
 
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+* README.md
+* app/
+* bower.json
+* bower_components/
+* config/
+* dist/
+* ember-cli-build.js
+* node_modules/
+* package.json
+* public/
+* testem.json
+* tests/
+* tmp/
+* vendor/
+
+
+
+
 
