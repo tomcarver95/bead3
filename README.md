@@ -30,8 +30,9 @@ http://www.kephost.com/image/Syq2
 
 ###Futattás
 * c9: 2 project elindítása
+* RESTAPI futtatása
 * server elindítása ezzel a paranccsal: "./node_modules/ember-cli/bin/ember server"
-* bead3 futtatása
+* bead3 megnyitása
 * navigálás kedv szerint
 
 ###Végpontok
