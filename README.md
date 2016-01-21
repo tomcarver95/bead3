@@ -20,7 +20,12 @@ Fontos, hogy a RESTAPI-t elindítsuk, hiszen ha nem tesszük nem tudunk új elem
 Adatbázis elemei: Hozzáadva, Kategória, Rövid ismertető
 
 ###Képek a programból
-(folyamatban)
+* ételek listázása
+http://www.kephost.com/image/Syqa
+* Főoldal
+http://www.kephost.com/image/Syqk
+* új étel felvétele
+http://www.kephost.com/image/Syq2
 
 
 ###Futattás
