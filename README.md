@@ -6,14 +6,14 @@
 Elvárások:
 Egy webes vastagkliens, azaz egyoldalas alkalmazás készítése Ember.js segítségével az utolsó beadandó. Feladatot illetően lehet a szerveroldali alkalmazásnak egy kliensoldali változata, de másik feladat is választható. A feladatnak mininálisan tartalmaznia kell:
 
-REST API végpont kialakítása
-legalább két modellt (onetomany)
-legalább 1 űrlap
-legalább 1 listázó oldal
-új felvétele
-adatbázisban lévő szerkesztése
-adatbázisban lévő törlése
-szerveroldali perzisztálás fájlba
+* REST API végpont kialakítása
+* legalább két modellt (onetomany)
+* legalább 1 űrlap
+* legalább 1 listázó oldal
+* új felvétele
+* adatbázisban lévő szerkesztése
+* adatbázisban lévő törlése
+* szerveroldali perzisztálás fájlba
 
 Használateseti-modell:
 Fontos, hogy a RESTAPI-t elindítsuk, hiszen ha nem tesszük nem tudunk új elemet felvenni az adatbázisba, illetve a régiek sem érhetőek el.
