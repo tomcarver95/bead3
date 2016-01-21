@@ -24,16 +24,16 @@ Adatbázis elemei: Hozzáadva, Kategória, Rövid ismertető
 
 
 ###Futattás
-*c9: 2 project elindítása
-*server elindítása ezzel a paranccsal: "./node_modules/ember-cli/bin/ember server"
-*bead3 futtatása
-*navigálás kedv szerint
+* c9: 2 project elindítása
+* server elindítása ezzel a paranccsal: "./node_modules/ember-cli/bin/ember server"
+* bead3 futtatása
+* navigálás kedv szerint
 
 ###Végpontok
-Homepage: http://bead3-tomcarver95.c9users.io
-Ételek: http://bead3-tomcarver95.c9users.io/errors/list
-Új étel felvétele: http://bead3-tomcarver95.c9users.io/errors/new
-Megnéz: http://bead3-tomcarver95.c9users.io/errors
+* Homepage: http://bead3-tomcarver95.c9users.io
+* Ételek: http://bead3-tomcarver95.c9users.io/errors/list
+* Új étel felvétele: http://bead3-tomcarver95.c9users.io/errors/new
+* Megnéz: http://bead3-tomcarver95.c9users.io/errors
 
 
 ###Felhasználói dokumentáció
