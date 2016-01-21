@@ -20,7 +20,7 @@ Fontos, hogy a RESTAPI-t elindítsuk, hiszen ha nem tesszük nem tudunk új elem
 Adatbázis elemei: Hozzáadva, Kategória, Rövid ismertető
 
 ###Képek a programból
-
+(folyamatban)
 
 
 ###Futattás
