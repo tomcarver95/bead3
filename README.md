@@ -43,7 +43,7 @@ http://www.kephost.com/image/Syq2
 
 ###Felhasználói dokumentáció
 Az alkalmazás futtatásához csupán egy böngészőre van szükség. (pl: Mozilla Firefox, Google Chrome...) Az oldalon található két gomb, "étel" és "új étel felvétele". Ha az elsőre kattintunk megjelenik az adatbázisba már felvett ételek listája.
-Ha a másik gombra kattintuk akkor értelemszerűen egy új ételt tudunk felvenni, amit később törölni, megtekinteni részletesebben illetve módosítani (szerkeszteni) is tudunk. Ezeket a műveleteket az "ételek" gombon találjuk.
+Ha a másik gombra kattintuk akkor értelemszerűen egy új ételt tudunk felvenni, amit később törölni, megtekinteni részletesebben illetve módosítani (szerkeszteni) is tudunk. Ha itt a mégse gombra kattintunk, akkor sztornózzuk az eddig megadott leírást. A törlés, szerkesztés, megtekintés műveleteket az "ételek" gombon találjuk. 
 
 ###Mappaszerkezet
 
